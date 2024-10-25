@@ -29,6 +29,14 @@
 ### 2、运行环境
 
 * Python 3.8
+* 安装pip依赖
+> pip install -r requirements.txt
+* 设置环境变量
+> # 直链域名
+> export TMPLINK_MYLINK=https://xxx.com
+>
+> # 钛盘的APIKEY
+> export TMPLINK_APIKEY=xxxxx
 
 ‍
 
