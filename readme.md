@@ -22,27 +22,28 @@
 * 需要有自己的域名，开通直链功能需要
 * 需要开通直链功能，具体参考[官网说明](https://bbs.tmp.link/d/563-%E7%9B%B4%E9%93%BE%E8%A6%81%E6%80%8E%E4%B9%88%E6%B7%BB%E5%8A%A0/6)
 
+
 > 如无法开通，可使用shell脚本来上传文件，需要经常更新 token
->
-> [https://github.com/tmplink/tmplink_cli](https://github.com/tmplink/tmplink_cli)
+[https://github.com/tmplink/tmplink_cli](https://github.com/tmplink/tmplink_cli)
+
 
 ### 2、运行环境
 
 * Python 3.8
 * 安装pip依赖
 
-> pip install -r requirements.txt
+```bash 
+pip install -r requirements.txt
+```
 
 * 设置环境变量
+```bash
+# 直链域名
+export TMPLINK_MYLINK=https://xxx.com
 
-> // 直链域名
->
-> export TMPLINK_MYLINK=[https://xxx.com](https://xxx.com/)
->
-> // 钛盘的APIKEY
->
-> export TMPLINK_APIKEY=xxxxx
-
+# 钛盘的APIKEY
+export TMPLINK_APIKEY=xxxxx
+```
 ‍
 
 # 三、使用
